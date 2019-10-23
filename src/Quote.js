@@ -3,7 +3,7 @@ import React from "react";
 function Quote(props) {
   const quoteEntry = props.quoteEntry;
   return (
-    <div id="quote-box">
+    <div id="quote-container">
       <p id="text">{quoteEntry.quote}</p>
       <p id="author">
         - {quoteEntry.character}

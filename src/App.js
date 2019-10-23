@@ -22,7 +22,7 @@ class App extends React.Component {
   render() {
     const quotes = allQuotes.data;
     return (
-      <div>
+      <div id="quote-box">
         <Quote quoteEntry={quotes[this.state.quoteIndex]} />
         <Controls
           newQuote={this.newQuote.bind(this)}

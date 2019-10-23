@@ -18,7 +18,7 @@ body {
   font-size: 150%;
 }
 
-.controls {
+.controls-container {
   padding-top: 10px;
   display: flex;
   align-items: center;

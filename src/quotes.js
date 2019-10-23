@@ -8,7 +8,7 @@ export default {
       film: "Gone with the Wind",
       filmLink: "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
       year: "1939",
-      quote: "Frankly my dear I dont give a damn"
+      quote: '"Frankly, my dear, I don\'t give a damn."'
     },
     {
       character: "Vito Corleone",
@@ -18,7 +18,7 @@ export default {
       film: "The Godfather",
       filmLink: "https://en.wikipedia.org/wiki/The_Godfather",
       year: "1972",
-      quote: "Im gonna make him an offer he cant refuse"
+      quote: "\"I'm gonna make him an offer he can't refuse.\""
     },
     {
       character: "Terry Malloy",
@@ -28,7 +28,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/On_the_Waterfront",
       year: "1954",
       quote:
-        "You dont understand I coulda had class I coulda been a contender I couldve been somebody instead of a bum which is what I am"
+        "\"You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.\""
     },
     {
       character: "Dorothy Gale",
@@ -38,7 +38,7 @@ export default {
       film: "The Wizard of Oz",
       filmLink: "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
       year: "1939",
-      quote: "Toto Ive a feeling were not in Kansas anymore"
+      quote: "\"Toto, I've a feeling we're not in Kansas anymore.\""
     },
     {
       character: "Rick Blaine",
@@ -47,17 +47,17 @@ export default {
       film: "Casablanca",
       filmLink: "https://en.wikipedia.org/wiki/Casablanca_(film)",
       year: "1942",
-      quote: "Heres looking at you kid"
+      quote: '"Here\'s looking at you, kid."'
     },
     {
       character: "Harry Callahan",
       characterLink: "https://en.wikipedia.org/wiki/Dirty_Harry_(character)",
       actor: "Clint Eastwood",
       actorLink: "https://en.wikipedia.org/wiki/Clint_Eastwood",
-      film: "Sudden Impact[5]",
+      film: "Sudden Impact",
       filmLink: "https://en.wikipedia.org/wiki/Sudden_Impact",
       year: "1983",
-      quote: "Go ahead make my day"
+      quote: '"Go ahead, make my day."'
     },
     {
       character: "Norma Desmond",
@@ -67,7 +67,7 @@ export default {
       film: "Sunset Boulevard",
       filmLink: "https://en.wikipedia.org/wiki/Sunset_Boulevard_(film)",
       year: "1950",
-      quote: "All right Mr DeMille Im ready for my closeup"
+      quote: '"All right, Mr. DeMille, I\'m ready for my close-up."'
     },
     {
       character: "Han Solo",
@@ -77,7 +77,7 @@ export default {
       film: "Star Wars",
       filmLink: "https://en.wikipedia.org/wiki/Star_Wars_(film)",
       year: "1977",
-      quote: "May the Force be with you"
+      quote: '"May the Force be with you."'
     },
     {
       character: "Margo Channing",
@@ -86,7 +86,7 @@ export default {
       film: "All About Eve",
       filmLink: "https://en.wikipedia.org/wiki/All_About_Eve",
       year: "1950",
-      quote: "Fasten your seatbelts Its going to be a bumpy night"
+      quote: '"Fasten your seatbelts. It\'s going to be a bumpy night."'
     },
     {
       character: "Travis Bickle",
@@ -96,7 +96,7 @@ export default {
       film: "Taxi Driver",
       filmLink: "https://en.wikipedia.org/wiki/Taxi_Driver",
       year: "1976",
-      quote: "You talkin to me"
+      quote: '"You talkin\' to me?"'
     },
     {
       character: "Captain",
@@ -105,7 +105,7 @@ export default {
       film: "Cool Hand Luke",
       filmLink: "https://en.wikipedia.org/wiki/Cool_Hand_Luke",
       year: "1967",
-      quote: "What weve got here is failure to communicate"
+      quote: '"What we\'ve got here is failure to communicate."'
     },
     {
       character: "Lt. Col. Bill Kilgore",
@@ -114,7 +114,7 @@ export default {
       film: "Apocalypse Now",
       filmLink: "https://en.wikipedia.org/wiki/Apocalypse_Now",
       year: "1979",
-      quote: "I love the smell of napalm in the morning"
+      quote: '"I love the smell of napalm in the morning."'
     },
     {
       character: "Oliver Barrett IV",
@@ -123,7 +123,7 @@ export default {
       film: "Love Story",
       filmLink: "https://en.wikipedia.org/wiki/Love_Story_(1970_film)",
       year: "1970",
-      quote: "Love means never having to say youre sorry"
+      quote: '"Love means never having to say you\'re sorry."'
     },
     {
       character: "Sam Spade",
@@ -133,7 +133,7 @@ export default {
       film: "The Maltese Falcon",
       filmLink: "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
       year: "1941",
-      quote: "The stuff that dreams are made of"
+      quote: '"The stuff that dreams are made of."'
     },
     {
       character: "E.T.",
@@ -142,7 +142,7 @@ export default {
       film: "E.T. the Extra-Terrestrial",
       filmLink: "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial",
       year: "1982",
-      quote: "ET phone home"
+      quote: '"E.T. phone home."'
     },
     {
       character: "Virgil Tibbs",
@@ -152,7 +152,7 @@ export default {
       film: "In the Heat of the Night",
       filmLink: "https://en.wikipedia.org/wiki/In_the_Heat_of_the_Night_(film)",
       year: "1967",
-      quote: "They call me Mister Tibbs"
+      quote: '"They call me Mister Tibbs!"'
     },
     {
       character: "Charles Foster Kane",
@@ -162,7 +162,7 @@ export default {
       film: "Citizen Kane",
       filmLink: "https://en.wikipedia.org/wiki/Citizen_Kane",
       year: "1941",
-      quote: "Rosebud"
+      quote: '"Rosebud."'
     },
     {
       character: 'Arthur "Cody" Jarrett',
@@ -171,7 +171,7 @@ export default {
       film: "White Heat",
       filmLink: "https://en.wikipedia.org/wiki/White_Heat",
       year: "1949",
-      quote: "Made it Ma Top of the world"
+      quote: '"Made it, Ma! Top of the world!"'
     },
     {
       character: "Howard Beale",
@@ -181,7 +181,7 @@ export default {
       film: "Network",
       filmLink: "https://en.wikipedia.org/wiki/Network_(1976_film)",
       year: "1976",
-      quote: "Im as mad as hell and Im not going to take this anymore"
+      quote: "\"I'm as mad as hell, and I'm not going to take this anymore!\""
     },
     {
       character: "Rick Blaine",
@@ -190,7 +190,7 @@ export default {
       film: "Casablanca",
       filmLink: "https://en.wikipedia.org/wiki/Casablanca_(film)",
       year: "1942",
-      quote: "Louis I think this is the beginning of a beautiful friendship"
+      quote: '"Louis, I think this is the beginning of a beautiful friendship."'
     },
     {
       character: "Dr. Hannibal Lecter",
@@ -201,17 +201,17 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)",
       year: "1991",
       quote:
-        "A census taker once tried to test me I ate his liver with some fava beans and a nice Chianti"
+        '"A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti."'
     },
     {
       character: "James Bond",
       characterLink: "https://en.wikipedia.org/wiki/James_Bond_(character)",
-      actor: "Sean Connery[10]",
+      actor: "Sean Connery",
       actorLink: "https://en.wikipedia.org/wiki/Sean_Connery",
-      film: "Dr. No[11]",
+      film: "Dr. No",
       filmLink: "https://en.wikipedia.org/wiki/Dr._No_(film)",
       year: "1962",
-      quote: "Bond James Bond"
+      quote: '"Bond. James Bond."'
     },
     {
       character: "Dorothy Gale",
@@ -221,7 +221,7 @@ export default {
       film: "The Wizard of Oz",
       filmLink: "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
       year: "1939",
-      quote: "Theres no place like home"
+      quote: '"There\'s no place like home."'
     },
     {
       character: "Norma Desmond",
@@ -231,7 +231,7 @@ export default {
       film: "Sunset Boulevard",
       filmLink: "https://en.wikipedia.org/wiki/Sunset_Boulevard_(film)",
       year: "1950",
-      quote: "I am big Its the pictures that got small"
+      quote: '"I am big! It\'s the pictures that got small."'
     },
     {
       character: "Rod Tidwell",
@@ -240,7 +240,7 @@ export default {
       film: "Jerry Maguire",
       filmLink: "https://en.wikipedia.org/wiki/Jerry_Maguire",
       year: "1996",
-      quote: "Show me the money"
+      quote: '"Show me the money!"'
     },
     {
       character: "Lady Lou",
@@ -249,7 +249,7 @@ export default {
       film: "She Done Him Wrong",
       filmLink: "https://en.wikipedia.org/wiki/She_Done_Him_Wrong",
       year: "1933",
-      quote: "Why dont you come up sometime and see me"
+      quote: '"Why don\'t you come up sometime and see me?"'
     },
     {
       character: '"Ratso" Rizzo',
@@ -258,7 +258,7 @@ export default {
       film: "Midnight Cowboy",
       filmLink: "https://en.wikipedia.org/wiki/Midnight_Cowboy",
       year: "1969",
-      quote: "Im walkin here Im walkin here"
+      quote: "\"I'm walkin' here! I'm walkin' here!\""
     },
     {
       character: "Ilsa Lund",
@@ -267,7 +267,7 @@ export default {
       film: "Casablanca",
       filmLink: "https://en.wikipedia.org/wiki/Casablanca_(film)",
       year: "1942",
-      quote: "Play it Sam Play As Time Goes By"
+      quote: "\"Play it, Sam. Play 'As Time Goes By.'\""
     },
     {
       character: "Col. Nathan R. Jessup",
@@ -276,7 +276,7 @@ export default {
       film: "A Few Good Men",
       filmLink: "https://en.wikipedia.org/wiki/A_Few_Good_Men",
       year: "1992",
-      quote: "You cant handle the truth"
+      quote: '"You can\'t handle the truth!"'
     },
     {
       character: "Grusinskaya",
@@ -285,7 +285,7 @@ export default {
       film: "Grand Hotel",
       filmLink: "https://en.wikipedia.org/wiki/Grand_Hotel_(1932_film)",
       year: "1932",
-      quote: "I want to be alone"
+      quote: '"I want to be alone."'
     },
     {
       character: "Scarlett O'Hara",
@@ -295,7 +295,7 @@ export default {
       film: "Gone with the Wind",
       filmLink: "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
       year: "1939",
-      quote: "After all tomorrow is another day"
+      quote: '"After all, tomorrow is another day!"'
     },
     {
       character: "Capt. Louis Renault",
@@ -304,7 +304,7 @@ export default {
       film: "Casablanca",
       filmLink: "https://en.wikipedia.org/wiki/Casablanca_(film)",
       year: "1942",
-      quote: "Round up the usual suspects"
+      quote: '"Round up the usual suspects."'
     },
     {
       character: "Customer",
@@ -313,7 +313,7 @@ export default {
       film: "When Harry Met Sally...",
       filmLink: "https://en.wikipedia.org/wiki/When_Harry_Met_Sally...",
       year: "1989",
-      quote: "Ill have what shes having"
+      quote: "\"I'll have what she's having.\""
     },
     {
       character: 'Marie "Slim" Browning',
@@ -323,7 +323,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/To_Have_and_Have_Not_(film)",
       year: "1944",
       quote:
-        "You know how to whistle dont you Steve You just put your lips together and blow"
+        '"You know how to whistle, don\'t you, Steve? You just put your lips together and blow."'
     },
     {
       character: "Martin Brody",
@@ -332,7 +332,7 @@ export default {
       film: "Jaws",
       filmLink: "https://en.wikipedia.org/wiki/Jaws_(film)",
       year: "1975",
-      quote: "Youre gonna need a bigger boat"
+      quote: '"You\'re gonna need a bigger boat."'
     },
     {
       character: "Gold Hat",
@@ -343,7 +343,7 @@ export default {
         "https://en.wikipedia.org/wiki/The_Treasure_of_the_Sierra_Madre_(film)",
       year: "1948",
       quote:
-        "Badges We aint got no badges We dont need no badges I dont have to show you any stinking badges"
+        "\"Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!\""
     },
     {
       character: "The Terminator",
@@ -353,7 +353,7 @@ export default {
       film: "The Terminator",
       filmLink: "https://en.wikipedia.org/wiki/The_Terminator",
       year: "1984",
-      quote: "Ill be back"
+      quote: '"I\'ll be back."'
     },
     {
       character: "Lou Gehrig",
@@ -363,7 +363,8 @@ export default {
       film: "The Pride of the Yankees",
       filmLink: "https://en.wikipedia.org/wiki/The_Pride_of_the_Yankees",
       year: "1942",
-      quote: "Today I consider myself the luckiest man on the face of the Earth"
+      quote:
+        '"Today, I consider myself the luckiest man on the face of the Earth."'
     },
     {
       character: "Shoeless Joe Jackson",
@@ -373,7 +374,7 @@ export default {
       film: "Field of Dreams",
       filmLink: "https://en.wikipedia.org/wiki/Field_of_Dreams",
       year: "1989",
-      quote: "If you build it he will come"
+      quote: '"If you build it, he will come."'
     },
     {
       character: "Forrest Gump",
@@ -384,7 +385,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Forrest_Gump",
       year: "1994",
       quote:
-        "Mama always said life was like a box of chocolates You never know what youre gonna get"
+        '"Mama always said life was like a box of chocolates. You never know what you\'re gonna get."'
     },
     {
       character: "Clyde Barrow",
@@ -394,7 +395,7 @@ export default {
       film: "Bonnie and Clyde",
       filmLink: "https://en.wikipedia.org/wiki/Bonnie_and_Clyde_(film)",
       year: "1967",
-      quote: "We rob banks"
+      quote: '"We rob banks."'
     },
     {
       character: "Mr. Maguire",
@@ -403,7 +404,7 @@ export default {
       film: "The Graduate",
       filmLink: "https://en.wikipedia.org/wiki/The_Graduate",
       year: "1967",
-      quote: "Plastics"
+      quote: '"Plastics."'
     },
     {
       character: "Rick Blaine",
@@ -412,7 +413,7 @@ export default {
       film: "Casablanca",
       filmLink: "https://en.wikipedia.org/wiki/Casablanca_(film)",
       year: "1942",
-      quote: "Well always have Paris"
+      quote: '"We\'ll always have Paris."'
     },
     {
       character: "Cole Sear",
@@ -421,7 +422,7 @@ export default {
       film: "The Sixth Sense",
       filmLink: "https://en.wikipedia.org/wiki/The_Sixth_Sense",
       year: "1999",
-      quote: "I see dead people"
+      quote: '"I see dead people."'
     },
     {
       character: "Stanley Kowalski",
@@ -432,7 +433,7 @@ export default {
       filmLink:
         "https://en.wikipedia.org/wiki/A_Streetcar_Named_Desire_(1951_film)",
       year: "1951",
-      quote: "Stella Hey Stella"
+      quote: '"Stella! Hey, Stella!"'
     },
     {
       character: "Charlotte Vale",
@@ -441,7 +442,7 @@ export default {
       film: "Now, Voyager",
       filmLink: "https://en.wikipedia.org/wiki/Now,_Voyager",
       year: "1942",
-      quote: "Oh Jerry dont lets ask for the moon We have the stars"
+      quote: "\"Oh, Jerry, don't let's ask for the moon. We have the stars.\""
     },
     {
       character: "Joey Starrett",
@@ -450,7 +451,7 @@ export default {
       film: "Shane",
       filmLink: "https://en.wikipedia.org/wiki/Shane_(film)",
       year: "1953",
-      quote: "Shane Shane Come back"
+      quote: '"Shane. Shane. Come back!"'
     },
     {
       character: "Osgood Fielding III",
@@ -459,7 +460,7 @@ export default {
       film: "Some Like It Hot",
       filmLink: "https://en.wikipedia.org/wiki/Some_Like_It_Hot",
       year: "1959",
-      quote: "Well nobodys perfect"
+      quote: '"Well, nobody\'s perfect."'
     },
     {
       character: "Henry Frankenstein",
@@ -469,7 +470,7 @@ export default {
       film: "Frankenstein",
       filmLink: "https://en.wikipedia.org/wiki/Frankenstein_(1931_film)",
       year: "1931",
-      quote: "Its alive Its alive"
+      quote: "\"It's alive! It's alive!\""
     },
     {
       character: "Jim Lovell",
@@ -479,7 +480,7 @@ export default {
       film: "Apollo 13",
       filmLink: "https://en.wikipedia.org/wiki/Apollo_13_(film)",
       year: "1995",
-      quote: "Houston we have a problem"
+      quote: '"Houston, we have a problem."'
     },
     {
       character: "Harry Callahan",
@@ -490,7 +491,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Dirty_Harry",
       year: "1971",
       quote:
-        "Youve got to ask yourself one question Do I feel lucky Well do ya punk"
+        "\"You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?\""
     },
     {
       character: "Dorothy Boyd",
@@ -499,7 +500,7 @@ export default {
       film: "Jerry Maguire",
       filmLink: "https://en.wikipedia.org/wiki/Jerry_Maguire",
       year: "1996",
-      quote: "You had me at hello"
+      quote: "\"You had me at 'hello.'\""
     },
     {
       character: "Capt. Geoffrey T. Spaulding",
@@ -509,7 +510,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Animal_Crackers_(1930_film)",
       year: "1930",
       quote:
-        "One morning I shot an elephant in my pajamas How he got in my pajamas I dont know"
+        '"One morning I shot an elephant in my pajamas. How he got in my pajamas, I don\'t know."'
     },
     {
       character: "Jimmy Dugan",
@@ -518,7 +519,7 @@ export default {
       film: "A League of Their Own",
       filmLink: "https://en.wikipedia.org/wiki/A_League_of_Their_Own",
       year: "1992",
-      quote: "Theres no crying in baseball"
+      quote: '"There\'s no crying in baseball!"'
     },
     {
       character: "Annie Hall",
@@ -527,7 +528,7 @@ export default {
       film: "Annie Hall",
       filmLink: "https://en.wikipedia.org/wiki/Annie_Hall",
       year: "1977",
-      quote: "Ladeeda ladeeda"
+      quote: '"La-dee-da, la-dee-da."'
     },
     {
       character: "Norman Bates",
@@ -537,7 +538,7 @@ export default {
       film: "Psycho",
       filmLink: "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
       year: "1960",
-      quote: "A boys best friend is his mother"
+      quote: '"A boy\'s best friend is his mother."'
     },
     {
       character: "Gordon Gekko",
@@ -547,7 +548,7 @@ export default {
       film: "Wall Street",
       filmLink: "https://en.wikipedia.org/wiki/Wall_Street_(1987_film)",
       year: "1987",
-      quote: "Greed for lack of a better word is good"
+      quote: '"Greed, for lack of a better word, is good."'
     },
     {
       character: "Michael Corleone",
@@ -557,7 +558,7 @@ export default {
       film: "The Godfather Part II",
       filmLink: "https://en.wikipedia.org/wiki/The_Godfather_Part_II",
       year: "1974",
-      quote: "Keep your friends close but your enemies closer"
+      quote: '"Keep your friends close, but your enemies closer."'
     },
     {
       character: "Scarlett O'Hara",
@@ -567,7 +568,7 @@ export default {
       film: "Gone with the Wind",
       filmLink: "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
       year: "1939",
-      quote: "As God is my witness Ill never be hungry again"
+      quote: '"As God is my witness, I\'ll never be hungry again."'
     },
     {
       character: "Oliver",
@@ -576,7 +577,7 @@ export default {
       film: "Sons of the Desert",
       filmLink: "https://en.wikipedia.org/wiki/Sons_of_the_Desert",
       year: "1933",
-      quote: "Well heres another nice mess youve gotten me into"
+      quote: "\"Well, here's another nice mess you've gotten me into!\""
     },
     {
       character: "Tony Montana",
@@ -586,7 +587,7 @@ export default {
       film: "Scarface",
       filmLink: "https://en.wikipedia.org/wiki/Scarface_(1983_film)",
       year: "1983",
-      quote: "Say hello to my little friend"
+      quote: "\"Say 'hello' to my little friend!\""
     },
     {
       character: "Rosa Moline",
@@ -595,7 +596,7 @@ export default {
       film: "Beyond the Forest",
       filmLink: "https://en.wikipedia.org/wiki/Beyond_the_Forest",
       year: "1949",
-      quote: "What a dump"
+      quote: '"What a dump."'
     },
     {
       character: "Benjamin Braddock",
@@ -605,7 +606,7 @@ export default {
       film: "The Graduate",
       filmLink: "https://en.wikipedia.org/wiki/The_Graduate",
       year: "1967",
-      quote: "Mrs Robinson youre trying to seduce me Arent you"
+      quote: "\"Mrs. Robinson, you're trying to seduce me. Aren't you?\""
     },
     {
       character: "President Merkin Muffley",
@@ -614,7 +615,7 @@ export default {
       film: "Dr. Strangelove",
       filmLink: "https://en.wikipedia.org/wiki/Dr._Strangelove",
       year: "1964",
-      quote: "Gentlemen you cant fight in here This is the War Room"
+      quote: '"Gentlemen, you can\'t fight in here! This is the War Room!"'
     },
     {
       character: "Sherlock Holmes",
@@ -625,7 +626,7 @@ export default {
       filmLink:
         "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes_(film)",
       year: "1939",
-      quote: "Elementary my dear Watson"
+      quote: '"Elementary, my dear Watson."'
     },
     {
       character: "George Taylor",
@@ -636,7 +637,7 @@ export default {
       film: "Planet of the Apes",
       filmLink: "https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film)",
       year: "1968",
-      quote: "Get your stinking paws off me you damned dirty ape"
+      quote: '"Get your stinking paws off me, you damned dirty ape."'
     },
     {
       character: "Rick Blaine",
@@ -646,7 +647,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Casablanca_(film)",
       year: "1942",
       quote:
-        "Of all the gin joints in all the towns in all the world she walks into mine"
+        '"Of all the gin joints in all the towns in all the world, she walks into mine."'
     },
     {
       character: "Jack Torrance",
@@ -656,7 +657,7 @@ export default {
       film: "The Shining",
       filmLink: "https://en.wikipedia.org/wiki/The_Shining_(film)",
       year: "1980",
-      quote: "Heres Johnny"
+      quote: '"Here\'s Johnny!"'
     },
     {
       character: "Carol Anne Freeling",
@@ -665,7 +666,7 @@ export default {
       film: "Poltergeist",
       filmLink: "https://en.wikipedia.org/wiki/Poltergeist_(1982_film)",
       year: "1982",
-      quote: "Theyre here"
+      quote: '"They\'re here!"'
     },
     {
       character: "Dr. Christian Szell",
@@ -674,7 +675,7 @@ export default {
       film: "Marathon Man",
       filmLink: "https://en.wikipedia.org/wiki/Marathon_Man_(film)",
       year: "1976",
-      quote: "Is it safe"
+      quote: '"Is it safe?"'
     },
     {
       character: "Jakie Rabinowitz/Jack Robin",
@@ -683,7 +684,7 @@ export default {
       film: "The Jazz Singer",
       filmLink: "https://en.wikipedia.org/wiki/The_Jazz_Singer",
       year: "1927",
-      quote: "Wait a minute wait a minute You aint heard nothin yet"
+      quote: "\"Wait a minute, wait a minute. You ain't heard nothin' yet!\""
     },
     {
       character: "Joan Crawford",
@@ -693,7 +694,7 @@ export default {
       film: "Mommie Dearest",
       filmLink: "https://en.wikipedia.org/wiki/Mommie_Dearest_(film)",
       year: "1981",
-      quote: "No wire hangers ever"
+      quote: '"No wire hangers, ever!"'
     },
     {
       character: "Rico Bandello",
@@ -702,7 +703,7 @@ export default {
       film: "Little Caesar",
       filmLink: "https://en.wikipedia.org/wiki/Little_Caesar_(film)",
       year: "1931",
-      quote: "Mother of mercy is this the end of Rico"
+      quote: '"Mother of mercy, is this the end of Rico?"'
     },
     {
       character: "Lawrence Walsh",
@@ -711,7 +712,7 @@ export default {
       film: "Chinatown",
       filmLink: "https://en.wikipedia.org/wiki/Chinatown_(1974_film)",
       year: "1974",
-      quote: "Forget it Jake its Chinatown"
+      quote: '"Forget it, Jake, it\'s Chinatown."'
     },
     {
       character: "Blanche DuBois",
@@ -722,7 +723,7 @@ export default {
       filmLink:
         "https://en.wikipedia.org/wiki/A_Streetcar_Named_Desire_(1951_film)",
       year: "1951",
-      quote: "I have always depended on the kindness of strangers"
+      quote: '"I have always depended on the kindness of strangers."'
     },
     {
       character: "The Terminator",
@@ -732,7 +733,7 @@ export default {
       film: "Terminator 2: Judgment Day",
       filmLink: "https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day",
       year: "1991",
-      quote: "Hasta la vista baby"
+      quote: '"Hasta la vista, baby."'
     },
     {
       character: "Det. Robert Thorn",
@@ -741,7 +742,7 @@ export default {
       film: "Soylent Green",
       filmLink: "https://en.wikipedia.org/wiki/Soylent_Green",
       year: "1973",
-      quote: "Soylent Green is people"
+      quote: '"Soylent Green is people!"'
     },
     {
       character: "Dave Bowman",
@@ -752,7 +753,7 @@ export default {
       film: "2001: A Space Odyssey",
       filmLink: "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)",
       year: "1968",
-      quote: "Open the pod bay doors HAL"
+      quote: '"Open the pod bay doors, HAL."'
     },
     {
       character: "Ted Striker & Dr. Rumack",
@@ -762,7 +763,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Airplane!",
       year: "1980",
       quote:
-        "Striker Surely you cant be seriousRumack I am serious  and dont call me Shirley"
+        'Striker: "Surely you can\'t be serious."\nRumack: "I am serious … and don\'t call me Shirley."'
     },
     {
       character: "Rocky Balboa",
@@ -772,7 +773,7 @@ export default {
       film: "Rocky",
       filmLink: "https://en.wikipedia.org/wiki/Rocky",
       year: "1976",
-      quote: "Yo Adrian"
+      quote: '"Yo, Adrian!"'
     },
     {
       character: "Fanny Brice",
@@ -782,7 +783,7 @@ export default {
       film: "Funny Girl",
       filmLink: "https://en.wikipedia.org/wiki/Funny_Girl_(film)",
       year: "1968",
-      quote: "Hello gorgeous"
+      quote: '"Hello, gorgeous."'
     },
     {
       character: 'John "Bluto" Blutarsky',
@@ -792,7 +793,7 @@ export default {
       film: "National Lampoon's Animal House",
       filmLink: "https://en.wikipedia.org/wiki/Animal_House",
       year: "1978",
-      quote: "Toga Toga"
+      quote: '"Toga! Toga!"'
     },
     {
       character: "Count Dracula",
@@ -803,7 +804,7 @@ export default {
       filmLink:
         "https://en.wikipedia.org/wiki/Dracula_(1931_English-language_film)",
       year: "1931",
-      quote: "Listen to them Children of the night What music they make"
+      quote: '"Listen to them. Children of the night. What music they make."'
     },
     {
       character: "Carl Denham",
@@ -813,7 +814,8 @@ export default {
       film: "King Kong",
       filmLink: "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
       year: "1933",
-      quote: "Oh no it wasnt the airplanes It was Beauty killed the Beast"
+      quote:
+        '"Oh, no, it wasn\'t the airplanes. It was Beauty killed the Beast."'
     },
     {
       character: "Gollum",
@@ -824,7 +826,7 @@ export default {
       filmLink:
         "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Two_Towers",
       year: "2002",
-      quote: "My precious"
+      quote: '"My precious."'
     },
     {
       character: "Sonny Wortzik",
@@ -833,7 +835,7 @@ export default {
       film: "Dog Day Afternoon",
       filmLink: "https://en.wikipedia.org/wiki/Dog_Day_Afternoon",
       year: "1975",
-      quote: "Attica Attica"
+      quote: '"Attica! Attica!"'
     },
     {
       character: "Julian Marsh",
@@ -843,7 +845,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/42nd_Street_(film)",
       year: "1933",
       quote:
-        "Sawyer youre going out a youngster but youve got to come back a star"
+        "\"Sawyer, you're going out a youngster, but you've got to come back a star!\""
     },
     {
       character: "Ethel Thayer",
@@ -853,10 +855,10 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/On_Golden_Pond_(1981_film)",
       year: "1981",
       quote:
-        "Listen to me mister Youre my knight in shining armor Dont you forget it Youre going to get back on that horse and Im going to be right behind you holding on tight and away were gonna go go go"
+        "\"Listen to me, mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse, and I'm going to be right behind you, holding on tight, and away we're gonna go, go, go!\""
     },
     {
-      character: "Knute Rockne[34]",
+      character: "Knute Rockne",
       characterLink: "https://en.wikipedia.org/wiki/Knute_Rockne",
       actor: "Pat O'Brien",
       actorLink: "https://en.wikipedia.org/wiki/Pat_O%27Brien_(actor)",
@@ -864,17 +866,17 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Knute_Rockne,_All_American",
       year: "1940",
       quote:
-        "Tell em to go out there with all they got and win just one for the Gipper"
+        '"Tell \'em to go out there with all they got and win just one for the Gipper."'
     },
     {
       character: "James Bond",
       characterLink: "https://en.wikipedia.org/wiki/James_Bond",
-      actor: "Sean Connery[10]",
+      actor: "Sean Connery",
       actorLink: "https://en.wikipedia.org/wiki/Sean_Connery",
-      film: "Goldfinger[36]",
+      film: "Goldfinger",
       filmLink: "https://en.wikipedia.org/wiki/Goldfinger_(film)",
       year: "1964",
-      quote: "A martini Shaken not stirred"
+      quote: '"A martini. Shaken, not stirred."'
     },
     {
       character: "Dexter",
@@ -883,7 +885,7 @@ export default {
       film: "The Naughty Nineties",
       filmLink: "https://en.wikipedia.org/wiki/The_Naughty_Nineties",
       year: "1945",
-      quote: "Whos on first"
+      quote: '"Who\'s on first?"'
     },
     {
       character: "Carl Spackler",
@@ -893,7 +895,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Caddyshack",
       year: "1980",
       quote:
-        "Cinderella story Outta nowhere A former greenskeeper now about to become the Masters champion It looks like a miracIts in the hole Its in the hole Its in the hole"
+        "\"Cinderella story. Outta nowhere. A former greenskeeper, now, about to become the Masters champion. It looks like a mirac...It's in the hole! It's in the hole! It's in the hole!\""
     },
     {
       character: "Mame Dennis",
@@ -902,7 +904,7 @@ export default {
       film: "Auntie Mame",
       filmLink: "https://en.wikipedia.org/wiki/Auntie_Mame_(film)",
       year: "1958",
-      quote: "Life is a banquet and most poor suckers are starving to death"
+      quote: '"Life is a banquet, and most poor suckers are starving to death!"'
     },
     {
       character: "Pete Mitchell & Nick Bradshaw",
@@ -911,7 +913,7 @@ export default {
       film: "Top Gun",
       filmLink: "https://en.wikipedia.org/wiki/Top_Gun",
       year: "1986",
-      quote: "I feel the needthe need for speed"
+      quote: '"I feel the need—the need for speed!"'
     },
     {
       character: "John Keating",
@@ -920,7 +922,7 @@ export default {
       film: "Dead Poets Society",
       filmLink: "https://en.wikipedia.org/wiki/Dead_Poets_Society",
       year: "1989",
-      quote: "Carpe diem Seize the day boys Make your lives extraordinary"
+      quote: '"Carpe diem. Seize the day, boys. Make your lives extraordinary."'
     },
     {
       character: "Loretta Castorini",
@@ -929,7 +931,7 @@ export default {
       film: "Moonstruck",
       filmLink: "https://en.wikipedia.org/wiki/Moonstruck",
       year: "1987",
-      quote: "Snap out of it"
+      quote: '"Snap out of it!"'
     },
     {
       character: "George M. Cohan",
@@ -940,7 +942,7 @@ export default {
       filmLink: "https://en.wikipedia.org/wiki/Yankee_Doodle_Dandy",
       year: "1942",
       quote:
-        "My mother thanks you My father thanks you My sister thanks you And I thank you"
+        '"My mother thanks you. My father thanks you. My sister thanks you. And I thank you."'
     },
     {
       character: "Johnny Castle",
@@ -949,7 +951,7 @@ export default {
       film: "Dirty Dancing",
       filmLink: "https://en.wikipedia.org/wiki/Dirty_Dancing",
       year: "1987",
-      quote: "Nobody puts Baby in a corner"
+      quote: '"Nobody puts Baby in a corner."'
     },
     {
       character: "Wicked Witch of the West",
@@ -959,7 +961,7 @@ export default {
       film: "The Wizard of Oz",
       filmLink: "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
       year: "1939",
-      quote: "Ill get you my pretty and your little dog too"
+      quote: '"I\'ll get you, my pretty, and your little dog too!"'
     },
     {
       character: "Jack Dawson",
@@ -968,7 +970,7 @@ export default {
       film: "Titanic",
       filmLink: "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
       year: "1997",
-      quote: "Im the King of the World"
+      quote: '"I\'m the King of the World!"'
     }
   ]
 };

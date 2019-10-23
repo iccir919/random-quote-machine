@@ -11,7 +11,7 @@ for (let i = 1; i < rows.length; i++) {
 }
 
 result.quotes = result.quotes.map(
-  el => (el.quote = el.quote.replace(/[^a-zA-Z {}]+(?![^{]*})/g, ""))
+  el => (el.quote = el.quote.replace(/\[.*\]/g, ""))
 );
 
 var otherResult = {
@@ -50,6 +50,15 @@ for (let i = 1; i < rows.length; i++) {
   }
 }
 
+otherResult.quotes.map(el => {
+  el.actor = el.actor.replace(/\[.*\]/g, "");
+  el.film = el.film.replace(/\[.*\]/g, "");
+});
+
 for (let i = 1; i < rows.length; i++) {
   otherResult.quotes[i - 1].year = rows[i].children[5].innerText;
+}
+
+for (let i = 0; i < result.quotes.length; i++) {
+  otherResult.quotes[i].quote = result.quotes[i];
 }

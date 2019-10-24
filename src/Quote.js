@@ -1,9 +1,10 @@
 import React from "react";
+import Controls from "./Controls";
 
 function Quote(props) {
   const quoteEntry = props.quoteEntry;
   return (
-    <div id="quote-container">
+    <div id="quote-box">
       <p id="text">{quoteEntry.quote}</p>
       <p id="author">
         - {quoteEntry.character}
@@ -12,6 +13,7 @@ function Quote(props) {
           <a href={quoteEntry.filmLink}>{quoteEntry.film}</a>
         </small>
       </p>
+      <Controls newQuote={props.newQuote} quoteEntry={props.quoteEntry} />
     </div>
   );
 }

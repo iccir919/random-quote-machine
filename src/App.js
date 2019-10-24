@@ -1,6 +1,6 @@
 import React from "react";
 import Quote from "./Quote";
-import Controls from "./Controls";
+import Poster from "./Poster";
 
 import allQuotes from "./quotes.js";
 import "./App.css";
@@ -22,11 +22,11 @@ class App extends React.Component {
   render() {
     const quotes = allQuotes.data;
     return (
-      <div id="quote-box">
-        <Quote quoteEntry={quotes[this.state.quoteIndex]} />
-        <Controls
-          newQuote={this.newQuote.bind(this)}
+      <div className="app">
+        <Poster quoteEntry={quotes[this.state.quoteIndex]} />
+        <Quote
           quoteEntry={quotes[this.state.quoteIndex]}
+          newQuote={this.newQuote.bind(this)}
         />
       </div>
     );

@@ -1,5 +1,5 @@
-export default {
-  data: [
+const data = 
+[
     {
       character: "Rhett Butler",
       characterLink: "https://en.wikipedia.org/wiki/Rhett_Butler",
@@ -972,5 +972,4 @@ export default {
       year: "1997",
       quote: '"I\'m the King of the World!"'
     }
-  ]
-};
+]

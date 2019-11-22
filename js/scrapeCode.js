@@ -1,3 +1,8 @@
+/*
+    Code is for scraping the data from the website
+    https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movie_Quotes
+ */
+
 var rows = document.querySelectorAll(".wikitable tr");
 
 var result = {

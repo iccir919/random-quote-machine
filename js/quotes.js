@@ -1,4 +1,4 @@
-const data = 
+const quotesData = 
 [
     {
       character: "Rhett Butler",

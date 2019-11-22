@@ -1,30 +1,40 @@
+function getRandomQuote() {
+    return quotesData[Math.floor(Math.random() * quotesData.length)];
+}
+let currentQuote = '', currentCitation = '';
+
+function getQuote() {
+    let randomQuote = getRandomQuote();
+
+    currentQuote = randomQuote.quote;
+    currentCitation = `${randomQuote.character} played by ${randomQuote.actor} in the film ${randomQuote.film}`;
+
+
+    $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent( currentQuote + ' ' + currentCitation));
+
+    $(".quote-text").animate(
+        { opacity: 0 },
+        500,
+        function() {
+          $(this).animate({ opacity: 1}, 500);
+          $('#text').text(currentQuote);
+        }
+    );
+
+    $(".quote-author").animate(
+        { opacity: 0 },
+        500,
+        function() {
+          $(this).animate({ opacity: 1}, 500);
+          $('#author').html(currentCitation);
+        }
+    );
+}
+
 $(document).ready(function() {
-    let num = undefined;
-    let quote = undefined;
+    console.log("Test")
+    getQuote();
+})
 
-    function newQuote() {
-        num = Math.floor((Math.random() * data.length));
-        quote = data[num];
-        $("#text").text(quote.quote);
-        $("#author").text(createCitation())
-    }
-    newQuote();
+$('#new-quote').on('click', getQuote);
 
-    function createCitation() {
-        return `${quote.character}, played by ${quote.actor}, in the film ${quote.film}`;
-    }
-
-    $("#new-quote").click(function(){
-        newQuote();     
-    })
-
-    $("#tweet-quote").click(function(){
-        let text = quote.quote;
-        text += " -" + createCitation();
-        text = encodeURI(text);
-
-        let url = $("tweet-quote").attr(href);
-        url += text;
-        $("tweet-quote").attr(href, url)
-    })
-});

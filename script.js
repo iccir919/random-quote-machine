@@ -401,7 +401,7 @@ const quotes = [
     }
 ];
 
-let randomIndex;
+let randomIndex = -1;
 
 
 $(document).ready(function() {
@@ -421,8 +421,8 @@ function removeQuote() {
 }
 
 function showNewQuote() {
-  let randomIndex = returnRandomQuoteIndex();
-  console.assert(randomIndex >= 0 && randomIndex <= 100);
+  randomIndex = returnNewRandomQuoteIndex(randomIndex);
+  console.assert(randomIndex >= 0 && randomIndex <= 100, "random index not in range");
 
   let randomQuote = quotes[randomIndex];
   console.assert(typeof randomQuote.quote === "string", "movie quote is not a string");
@@ -432,7 +432,7 @@ function showNewQuote() {
   document.getElementById("text").innerHTML = randomQuote.quote;
   document.getElementById("author").innerHTML = randomQuote.movie;
 
-  document.getElementById("tweet-quote").href = convertStringToTwitterLink();
+  document.getElementById("tweet-quote").href = convertStringToTwitterLink(randomQuote.quote + " -" + randomQuote.movie);
   
 
   $("#text").fadeIn("slow");
@@ -440,9 +440,13 @@ function showNewQuote() {
 }
 
 function convertStringToTwitterLink(string) {
-  return "https://twitter.com/intent/tweet";
+  return "https://twitter.com/intent/tweet?text=" + encodeURIComponent(string);
 }
 
-function returnRandomQuoteIndex() {
-  return Math.floor(Math.random() * 100);
+function returnNewRandomQuoteIndex(current) {
+  let result;
+  while (!result && result !== current) {
+    result = Math.floor(Math.random() * 100);
+  }
+  return result;
 }

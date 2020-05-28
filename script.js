@@ -400,3 +400,49 @@ const quotes = [
       "movie": "TITANIC (1997)"
     }
 ];
+
+let randomIndex;
+
+
+$(document).ready(function() {
+  console.assert(quotes.length === 100, "there are not a hundred quotes");
+
+  showNewQuote();
+
+  $("#new-quote").on("click", function() {
+    removeQuote();
+  })
+
+});
+
+
+function removeQuote() {
+  $("#text, #author").fadeOut("slow", showNewQuote);
+}
+
+function showNewQuote() {
+  let randomIndex = returnRandomQuoteIndex();
+  console.assert(randomIndex >= 0 && randomIndex <= 100);
+
+  let randomQuote = quotes[randomIndex];
+  console.assert(typeof randomQuote.quote === "string", "movie quote is not a string");
+  console.assert(typeof randomQuote.movie === "string", "movie name is not a string");
+
+
+  document.getElementById("text").innerHTML = randomQuote.quote;
+  document.getElementById("author").innerHTML = randomQuote.movie;
+
+  document.getElementById("tweet-quote").href = convertStringToTwitterLink();
+  
+
+  $("#text").fadeIn("slow");
+  $("#author").fadeIn("slow");
+}
+
+function convertStringToTwitterLink(string) {
+  return "https://twitter.com/intent/tweet";
+}
+
+function returnRandomQuoteIndex() {
+  return Math.floor(Math.random() * 100);
+}

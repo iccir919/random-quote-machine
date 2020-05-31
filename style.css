@@ -1,5 +1,6 @@
 body {
     background: black;
+    font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 545px;
+    width: 770px;
     height: 545px;
     display: flex;
     justify-content: center;
@@ -134,4 +135,61 @@ li:nth-child(3n + 3) {
         box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 220, 0),
             0px 0px 0px 0px rgba(255, 255, 190, 0);
     }
+}
+
+#quote-box {
+    width: 660px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-grow: 1; 
+    color: white;
+}
+
+#text {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+#author {
+    margin-top: 0.5em;
+    float: right;
+    font-size: 1.5em;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.control-button {
+    cursor: pointer;
+    background-color: #000;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 1.5em;
+}
+
+.control-button:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.control-button:focus {
+    outline: 0;
 }

@@ -208,7 +208,7 @@ const quotes = [
       "movie": "JERRY MAGUIRE (1996)"
     },
     {
-      "quote": "",
+      "quote": "One morning I shot an elephant in my pajamas. How he got in my pajamas, I don't know.",
       "movie": "ANIMAL CRACKERS (1930)"
     },
     {
@@ -344,11 +344,11 @@ const quotes = [
       "movie": "DOG DAY AFTERNOON (1975)"
     },
     {
-      "quote": "Sawyer, you're going out a youngster, but you've t to come back a star!",
+      "quote": "Sawyer, you're going out a youngster, but you've to come back a star!",
       "movie": "42ND STREET (1933)"
     },
     {
-      "quote": "Listen to me, mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse, and I'm going to be right behind you, holding on tight, and away we're gonna , go, go!",
+      "quote": "Listen to me, mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse, and I'm going to be right behind you, holding on tight, and away we're gonna go, go!",
       "movie": "ON GOLDEN POND (1981)"
     },
     {
@@ -428,12 +428,12 @@ function showNewQuote() {
   console.assert(typeof randomQuote.quote === "string", "movie quote is not a string");
   console.assert(typeof randomQuote.movie === "string", "movie name is not a string");
 
-
+  let fontSize = `${calculateFontSize(randomQuote.quote.length)}em`;
+  $("#text").css("fontSize", fontSize);
   $("#text").text(randomQuote.quote);
-  $("#author").text(randomQuote.movie);
+  $("#author").text("- " + randomQuote.movie);
 
   $("#tweet-quote").attr("href", convertStringToTwitterLink(randomQuote.quote + " -" + randomQuote.movie));
-  
 
   $("#text").fadeIn("slow");
   $("#author").fadeIn("slow");
@@ -449,4 +449,18 @@ function returnNewRandomQuoteIndex(current) {
     result = Math.floor(Math.random() * 100);
   }
   return result;
+}
+
+function calculateFontSize(length) {
+  if (length < 25) {
+      return 3.5;
+  } else if (length < 50) {
+      return 3.25;
+  } else if (length < 75) {
+      return 3;
+  } else if (length < 100) {
+      return 2.75;
+  } else { 
+      return 2;
+  }
 }

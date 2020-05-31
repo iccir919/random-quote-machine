@@ -145,7 +145,6 @@ li:nth-child(3n + 3) {
 }
 
 #quote {
-    text-align: center;
     padding-left: 25px;
     padding-right: 25px;
     flex-grow: 1; 
@@ -153,13 +152,16 @@ li:nth-child(3n + 3) {
 }
 
 #text {
+    text-align: center;
     margin-top: 1.5em;
     margin-bottom: .5em;
 }
 
 #author {
+    width: 90%;
     margin-top: 0.5em;
     float: right;
+    text-align: right;
     font-size: 1.5em;
 }
 

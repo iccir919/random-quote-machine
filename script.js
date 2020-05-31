@@ -401,6 +401,10 @@ const quotes = [
     }
 ];
 
+for(let i = 0; i < quotes.length; i++) {
+  if (quotes[i].movie ===  "DR. STRANGELOVE OR: HOW I LEARNED TO STOP WORRYING AND LOVE THE BOMB (1964)") console.log(i)
+}
+
 let randomIndex = -1;
 
 
@@ -459,7 +463,7 @@ function calculateFontSize(length) {
   } else if (length < 75) {
       return 3;
   } else if (length < 100) {
-      return 2.75;
+      return 2.65;
   } else { 
       return 2;
   }

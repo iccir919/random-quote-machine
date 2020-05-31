@@ -429,10 +429,10 @@ function showNewQuote() {
   console.assert(typeof randomQuote.movie === "string", "movie name is not a string");
 
 
-  document.getElementById("text").innerHTML = randomQuote.quote;
-  document.getElementById("author").innerHTML = randomQuote.movie;
+  $("#text").text(randomQuote.quote);
+  $("#author").text(randomQuote.movie);
 
-  document.getElementById("tweet-quote").href = convertStringToTwitterLink(randomQuote.quote + " -" + randomQuote.movie);
+  $("#tweet-quote").attr("href", convertStringToTwitterLink(randomQuote.quote + " -" + randomQuote.movie));
   
 
   $("#text").fadeIn("slow");

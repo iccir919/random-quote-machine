@@ -406,6 +406,7 @@ for(let i = 0; i < quotes.length; i++) {
 }
 
 let randomIndex = -1;
+let shownQuotes = [];
 
 
 $(document).ready(function() {
@@ -425,7 +426,7 @@ function removeQuote() {
 }
 
 function showNewQuote() {
-  randomIndex = returnNewRandomQuoteIndex(randomIndex);
+  randomIndex = returnNewRandomQuoteIndex();
   console.assert(randomIndex >= 0 && randomIndex <= 100, "random index not in range");
 
   let randomQuote = quotes[randomIndex];
@@ -447,12 +448,14 @@ function convertStringToTwitterLink(string) {
   return "https://twitter.com/intent/tweet?text=" + encodeURIComponent(string);
 }
 
-function returnNewRandomQuoteIndex(current) {
-  let result;
-  while (!result && result !== current) {
-    result = Math.floor(Math.random() * 100);
-  }
-  return result;
+function returnNewRandomQuoteIndex() {
+  if (shownQuotes.length = 100) shownQuotes = [];
+  let random;
+  do {
+    random = Math.floor(Math.random() * 100);
+  } while (shownQuotes.indexOf(random) !== -1);
+  shownQuotes.push(random);
+  return random;
 }
 
 function calculateFontSize(length) {

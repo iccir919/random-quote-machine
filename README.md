@@ -1,7 +1,6 @@
 # Random Quote Machine
 
-## Live Version
-- [Link to viewable version of the website](https://iccir919.github.io/random-quote-machine/)
+## [Live Version](https://iccir919.github.io/random-quote-machine/)
 
 ## Project Objective
 
